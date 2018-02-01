@@ -119,7 +119,13 @@
           img.src = imgSrc;
           img.alt = "loading wechat image...";
           img.setAttribute("class", "need-share-wechat-code-image");
-          dropdownEl.appendChild(img);
+
+          if (root.options.position == 'middleRight') {
+            dropdownEl.insertBefore(img, dropdownEl.children[0]);
+          }
+          else {
+            dropdownEl.appendChild(img);
+          }
         }
       },
       "douban": function (el) {
@@ -465,8 +471,8 @@
 
 
       // fill fropdown with buttons
-      var iconClass = myoptions.iconStyle == "default" ? 
-                      "need-share-button_link need-share-button_" : 
+      var iconClass = myoptions.iconStyle == "default" ?
+                      "need-share-button_link need-share-button_" :
                       "need-share-button_link-" + myoptions.iconStyle + " need-share-button_link need-share-button_";
       for (var network in myoptions.networks) {
         if (myoptions.networks.hasOwnProperty(network)) {

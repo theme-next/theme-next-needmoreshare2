@@ -425,7 +425,9 @@
       var myoptions = getOptions(el);
 
       // set dropdown row length
-      if (myoptions.iconStyle == "box" && myoptions.boxForm == "horizontal") {
+      if (myoptions.iconStyle == "default" && myoptions.boxForm == "vertical") {
+        dropdownEl.className += " need-share-button_dropdown-box-vertical";
+      } else if (myoptions.iconStyle == "box" && myoptions.boxForm == "horizontal") {
         dropdownEl.className += " need-share-button_dropdown-box-horizontal";
       } else if (myoptions.iconStyle == "box" && myoptions.boxForm == "vertical") {
         dropdownEl.className += " need-share-button_dropdown-box-vertical";

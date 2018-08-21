@@ -109,7 +109,7 @@
       },
       "wechat": function (el) {
         var myoptions = getOptions(el);
-        var imgSrc = "https://pan.baidu.com/share/qrcode?w=400&h=400&url=" + encodeURIComponent(myoptions.url);
+        var imgSrc = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent(myoptions.url);
         var dropdownEl = el.querySelector(".need-share-button_dropdown");
         var img = dropdownEl.getElementsByClassName("need-share-wechat-code-image")[0];
         if (img) {

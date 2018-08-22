@@ -147,7 +147,7 @@ src: url('data:application/octet-stream;base64,d09GRgABAAAAAA7IAA8AAAAAGBAAAQAAA
 
   width: 100%;
   max-width: 200px;
-  margin: auto;
+  margin: 10px auto;
 }
 .need-share-button_dropdown {
   position: absolute;

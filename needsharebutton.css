@@ -62,9 +62,6 @@
 .social-evernote:before { content: '\e801'; }
 .social-delicious:before { content: '\e815'; }
 .social-stumbleupon:before { content: '\e811'; }
-.social-slashdot:before { content: '\e806'; }
-.social-technorati:before { content: '\e807'; }
-.social-posterous:before { content: '\e809'; }
 .social-googlebookmarks:before { content: '\e80b'; }
 .social-newsvine:before { content: '\e803'; }
 .social-friendfeed:before { content: '\e802'; }
@@ -410,30 +407,6 @@ src: url('data:application/octet-stream;base64,d09GRgABAAAAAA7IAA8AAAAAGBAAAQAAA
   color: #fff;
 
   background: #0085af;
-}
-.need-share-button_slashdot {
-  color: #026664;
-}
-.need-share-button_slashdot.need-share-button_link-box {
-  color: #fff;
-
-  background: #026664;
-}
-.need-share-button_technorati {
-  color: #49ae47;
-}
-.need-share-button_technorati.need-share-button_link-box {
-  color: #fff;
-
-  background: #49ae47;
-}
-.need-share-button_posterous {
-  color: #795d31;
-}
-.need-share-button_posterous.need-share-button_link-box {
-  color: #fff;
-
-  background: #795d31;
 }
 .need-share-button_tumblr {
   color: #34465d;

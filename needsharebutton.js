@@ -227,29 +227,6 @@
 
         root.popup(url);
       },
-      "slashdot": function (el) {
-        var myoptions = getOptions(el);
-        var url = myoptions.protocol + "slashdot.org/bookmark.pl?";
-        url += "url=" + encodeURIComponent(myoptions.url);
-        url += "&title=" + encodeURIComponent(myoptions.title);
-
-        root.popup(url);
-      },
-      "technorati": function (el) {
-        var myoptions = getOptions(el);
-        var url = myoptions.protocol + "technorati.com/faves?";
-        url += "add=" + encodeURIComponent(myoptions.url);
-        url += "&title=" + encodeURIComponent(myoptions.title);
-
-        root.popup(url);
-      },
-      "posterous": function (el) {
-        var myoptions = getOptions(el);
-        var url = myoptions.protocol + "posterous.com/share?";
-        url += "linkto=" + encodeURIComponent(myoptions.url);
-
-        root.popup(url);
-      },
       "tumblr": function (el) {
         var myoptions = getOptions(el);
         var url = myoptions.protocol + "www.tumblr.com/share?v=3";

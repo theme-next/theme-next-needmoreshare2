@@ -2,4 +2,4 @@
 
 <h1 align="center">Installation</h1>
 
-<h2 align="center">Visit <a href="https://github.com/theme-next/hexo-next-share">hexo-next-share</a> for more information.</h2>
+<h2 align="center">Visit <a href="https://github.com/theme-next/hexo-next-share#need-more-share">hexo-next-share</a> for more information.</h2>
